@@ -26,7 +26,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1 className="app-title">Weather App </h1>
+      <h1 className="app-title">OpenWeather - API </h1>
       <SearchBar fetchWeather={fetchWeather} />
       {error && <p className="error">{error}</p>}
       {weather && <WeatherCard weather={weather} />}
